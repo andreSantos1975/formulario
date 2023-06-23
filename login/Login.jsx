@@ -4,7 +4,7 @@ import './Login.css';
 export const Login = () => {
   return (
     <>
-      <h1>Crie uma conta e tenha  uma prévia do orçamento</h1>
+      <h1>Inscreva-se e tenha  uma prévia do orçamento</h1>
       <div className='content'>
         <div className='content-login'>
           <form className='content-login-box form-box'>
@@ -13,7 +13,7 @@ export const Login = () => {
             <button className='btn btn-enter'>Entrar</button>
             <a href='#' className='fogot-password'>Esqueceu a senha?</a>
             <hr />
-            <button className='btn btn-create-account'>Criar nova conta</button>
+            <button className='btn btn-create-account'>Inscreva-se</button>
           </form>
           <p><strong>Crie um site</strong> e fortaleça a marca da sua empresa</p>
         </div>
