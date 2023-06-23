@@ -1,7 +1,7 @@
 :root {
     --cor-white: #f2f2f2;
     --cor-gray: #f0f2f5;
-    --cor-yelow: #f8be0f;
+    --cor-yelow: #f29100;
     --cor-yelow2: #ffd863;
     --cor-dark: #33322c;
     --cor-green: #17be2a;
@@ -31,7 +31,6 @@ body {
 
 .content-info {
     width: 300px;
-    /* Defina a largura desejada */
 }
 
 .content-login {
@@ -44,7 +43,7 @@ body {
 }
 
 .content-login-box {
-    background-color: var(--cor-yelow);
+    background-color: var(--cor-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +71,8 @@ body {
 }
 
 .btn {
-    padding: 15px;
+    padding: 10px 20px;
+    /* Ajuste o valor do padding conforme desejado */
     border: none;
     color: var(--cor-gray);
     border-radius: 5px;
@@ -81,14 +81,54 @@ body {
     transition: .2s;
 }
 
-a {
+.btn-enter {
+    background-color: var(--cor-yelow);
+}
+
+.btn-create-account {
+    background-color: var(--cor-yelow);
+    width: auto;
+    padding: 5px 10px;
+
+}
+
+.btn-enter:hover,
+.btn-create-account:hover {
+    background-color: var(--cor-yelow2);
+    /* Cor de fundo ao passar o mouse */
     color: var(--cor-blue);
+    /* Cor do texto ao passar o mouse */
+    /* Outras propriedades desejadas para o efeito hover */
+}
+
+a {
+    color: var(--cor-yelow2);
     text-decoration: none;
     cursor: pointer;
-  }
-  
+}
+
 a:hover {
     text-decoration: none;
-  }
+    color: #ffffff;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--cor-gray);
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color: var(--cor-blue);
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 50;
+    color: var(--cor-blue);
   
-  
+}
