@@ -29,13 +29,9 @@ body {
     /* Defina uma largura máxima para evitar que fique muito grande */
 }
 
-.content-info {
-    width: 300px;
-}
-
 .content-login {
     width: 400px;
-    /* Ajuste a largura para 400px ou outro valor desejado */
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;

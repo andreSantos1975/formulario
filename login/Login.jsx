@@ -6,10 +6,6 @@ export const Login = () => {
     <>
       <h1>Crie uma conta e tenha  uma prévia do orçamento</h1>
       <div className='content'>
-        <div className='content-info'>
-          <h1>CodeCoffeer</h1>
-          <h3>A tecnologia ao teu lado para superar obstáculos</h3>
-        </div>
         <div className='content-login'>
           <form className='content-login-box form-box'>
             <input type='text' className='inputs' placeholder='Email ou telefone' />
