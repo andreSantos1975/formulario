@@ -23,15 +23,14 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 64px;
     width: 100%;
-    /* Ajuste a largura para 100% */
     max-width: 800px;
-    /* Defina uma largura máxima para evitar que fique muito grande */
+
 }
 
 .content-login {
     width: 400px;
-    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,6 +118,12 @@ p {
 
 h1 {
     color: var(--cor-blue);
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
+h3 {
+    font-size: 2rem;
+    font-weight: 50;
+    color: var(--cor-blue);
+
+}
