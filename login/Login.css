@@ -119,12 +119,6 @@ p {
 
 h1 {
     color: var(--cor-blue);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
-h3 {
-    font-size: 2rem;
-    font-weight: 50;
-    color: var(--cor-blue);
-  
-}
